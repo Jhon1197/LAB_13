@@ -9,12 +9,12 @@ function resta(a,b){
 }
 //funcion multilicacion
 
-function multi(a,b){
+function multiplicación(a,b){
     return a*b;
 }
 //funcion de división
 
-function divi(a,b){
+function division(a,b){
     if (b==0){
         return "error en la división  por cero"
     }return a/b;
@@ -26,13 +26,13 @@ function calculadora(num1, num2, operacion){
     switch(operacion){
         case 'suma':
             return suma(num1, num2);
-            case 'resta':
+        case 'resta':
             return resta(num1, num2);
-            case 'multi':
-            return multi(num1, num2);
-            case 'divi':
+        case 'multiplicacion':
+            return multiplicacion(num1, num2);
+        case 'division':
                 if(num2!==0){
-                    return divi(num1, num2);
+                    return division(num1, num2);
                 }else
             return 'error: División por cero';
     }
