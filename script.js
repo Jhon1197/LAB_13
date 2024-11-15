@@ -17,8 +17,8 @@ function multi(a,b){
 function divi(a,b){
     if (b==0){
         return "error en la división  por cero"
-    }
-} return a/b;
+    }return a/b;
+} 
 
 //funcion calculadora
 
