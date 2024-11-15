@@ -39,7 +39,7 @@ function calculadora(num1, num2, operacion){
 }    
     let numero1=parseFloat(prompt("ingrese el numero 1"));
     let numero2=parseFloat(prompt("Ingrese el numero 2"));
-    let operacion=prompt("Ingrese la operación (suma,resta,multi,divi)");
+    let operacion=prompt("Ingrese la operación (suma,resta,multiplicacion,division)");
 
     let resultado=calculadora(numero1,numero2,operacion);
     document.write("El resulado es: " + resultado);
